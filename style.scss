@@ -1,0 +1,48 @@
+$bg:#FBFBFB;
+$textColour:#232323;
+$font:100px Rubik;
+$width:100px + 40;
+$btnCol:#148bec;
+$hoverBtnCol:#2c81c7;
+body {
+    background:$bg;
+}
+
+.container {
+    font:$font;
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin:auto;
+    text-align:center;
+    height:20%;
+    input {
+        font:$font;
+        font-weight: 100;
+        width:$width;
+        border:0px;
+        border-bottom: 3px solid #23232362;
+        background:rgba(0,0,0,0);
+        text-align:center;
+        transition: .3s;        
+    }
+    input:hover {
+        border-bottom: 3px solid #232323;
+    }
+    button {
+        margin-top:20px;
+        font:50px Rubik;
+        background: $btnCol;
+        color: white;
+        border:0px;
+        padding:12px 30px;
+        border-radius:7px ;
+        transition: .3s;
+    }
+    button:hover {
+        background: $hoverBtnCol;
+    }
+}

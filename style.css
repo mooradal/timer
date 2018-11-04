@@ -1,0 +1,49 @@
+body {
+  background: #FBFBFB;
+}
+
+.container {
+  font: 100px Rubik;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  height: 20%;
+}
+
+.container input {
+  font: 100px Rubik;
+  font-weight: 100;
+  width: 140px;
+  border: 0px;
+  border-bottom: 3px solid #23232362;
+  background: rgba(0, 0, 0, 0);
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.container input:hover {
+  border-bottom: 3px solid #232323;
+}
+
+.container button {
+  margin-top: 20px;
+  font: 50px Rubik;
+  background: #148bec;
+  color: white;
+  border: 0px;
+  padding: 12px 30px;
+  border-radius: 7px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.container button:hover {
+  background: #2c81c7;
+}
+/*# sourceMappingURL=style.css.map */
